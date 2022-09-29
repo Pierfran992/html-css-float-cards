@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Fredoka', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 main {
@@ -30,7 +30,7 @@ main {
 /* header */
 
 h1 {
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(243, 52, 148);
     text-align: center;
     margin-top: 100px;
@@ -44,7 +44,7 @@ h1 {
 }
 
 .row {
-    margin: 30px;
+    margin: 40px;
 }
 .slot {
     float: left;
@@ -53,13 +53,29 @@ h1 {
 }
 
 .team-member {
-    background-color: rgb(8, 8, 100);
+    background-color: rgb(4, 4, 46);
     color: #fff;
 }
 
 .img-member {
     float: left;
+    padding-right: 20px;
 }
+
+.name-member {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.email-member {
+    color: rgb(80, 177, 241);
+}
+
+.name-member,.role-member,.email-member {
+    padding-top: 10px;
+    display: block;
+}
+
 
 
 
