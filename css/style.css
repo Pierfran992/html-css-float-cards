@@ -1,0 +1,52 @@
+/* general rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/* header */
+
+h1 {
+    font-size: 30px;
+    color: rgb(243, 52, 148);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* content rules  */
+
+#team-description {
+    text-align: center;
+}
+
+.row {
+    margin: 30px;
+}
+.slot {
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 20px;
+}
+
+
+
+
