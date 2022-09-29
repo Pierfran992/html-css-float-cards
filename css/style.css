@@ -55,6 +55,8 @@ h1 {
 .team-member {
     background-color: rgb(4, 4, 46);
     color: #fff;
+    box-shadow: 0 0 10px 5px lightgray,
+                0 0 10px 5px lightgray;
 }
 
 .img-member {
